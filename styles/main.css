@@ -1,0 +1,21 @@
+@import url(./form.css);
+@import url(./home.css);
+@import url(./navbar.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+ul{
+    list-style: none;
+}
+
