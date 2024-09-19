@@ -1,0 +1,118 @@
+.landing-page{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    gap: 3rem;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+.tag-line{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(48, 47, 47);
+}
+.yellow-line{
+    width: 40%;
+    height: 0.4rem;
+    margin: auto;
+    background-color: rgb(247, 247, 12);
+    border-radius: 1rem;
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+    
+}
+
+.card:hover{
+    scale: 1.1;
+    transition: 0.5s all ease-in-out;
+}
+
+.card{
+    width: 25rem;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 1rem;
+    flex-direction: column;
+    margin: 2rem;
+    box-shadow: 21px 16px 50px -3px rgba(0,0,0,0.3);
+    padding:1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.card .title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card .card-details{
+     font-size: 1.1rem;
+}
+
+/* blog section styling */
+.blogs{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.blog{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+
+}
+
+.blogs .headline{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.blog-section{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog img{
+    width: 20rem;
+    height: 20rem;    
+}
+
+
+.blog img{
+    scale: 1.1;
+    transition:0.5s all ease-in;
+}
